@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frontend - store
+    </title>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Staatliches&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        
+        <a href="index.html">
+            <img class="header__logo" src="./img/logo.png" alt="logo">
+        </a>
+
+    </header>
+    <!-- MENU -->
+    <nav class="navigation">
+        <a class="navigation__link " href="index.html">Tienda</a>
+        <a class="navigation__link navigation__link--active" href="nosotros.html">Nosotros</a>
+    </nav>
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="container">
+        <h1>React JS</h1>
+        <div class="t-shirt">
+            <img  class="t-shirt__image" src="./img/3.jpg" alt="react t-shirt">
+            <div class="t-shirt__content">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam doloremque neque adipisci autem dolores maxime ratione at, labore voluptatem laboriosam.</p>
+                <form class="form">
+                    <select class="form__field" name="size"
+                         <option> disabled selected >Seleccionar talla</option>
+                         <option value="s" >Chica</option>
+                         <option value="m" >Mediana</option>
+                         <option value="l" >Grande</option>
+                    </select>
+                    <input type="number" class="form__field" placeholder="Cantidad" min="1" max="20">
+                    <input type="submit" class="form__submit" value="Agregar al carrito">
+                </form>
+            </div>
+        </div>
+    </main>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <p class="footer__text" >Front-end store - Todos los derechos reservados 2023</p>
+    </footer>
+</body>
+</html>
